@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.databinder</groupId>
+    <artifactId>unfiltered-spec_2.9.1</artifactId>
+    <packaging>jar</packaging>
+    <description>Facilitates testing Unfiltered servers with Specs</description>
+    <url>http://unfiltered.databinder.net/</url>
+    <version>0.5.4-SNAPSHOT</version>
+    <name>unfiltered-spec</name>
+    <organization>
+        <name>net.databinder</name>
+        <url>http://unfiltered.databinder.net/</url>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>net.databinder</groupId>
+            <artifactId>unfiltered-filter_2.9.1</artifactId>
+            <version>0.5.4-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.databinder</groupId>
+            <artifactId>unfiltered-jetty_2.9.1</artifactId>
+            <version>0.5.4-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.databinder</groupId>
+            <artifactId>unfiltered-netty-server_2.9.1</artifactId>
+            <version>0.5.4-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-tools.testing</groupId>
+            <artifactId>specs_2.9.1</artifactId>
+            <version>1.6.9</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.databinder</groupId>
+            <artifactId>dispatch-mime_2.9.1</artifactId>
+            <version>0.8.6</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.databinder</groupId>
+            <artifactId>dispatch-http_2.9.1</artifactId>
+            <version>0.8.6</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>ScalaToolsMaven2Repository</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
